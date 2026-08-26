@@ -64,11 +64,18 @@ function moveDucks() {
         if(duck.x < 0 || duck.x + duckImageWidth > gameWidth ) {
             //duck.velocityX -= duck.velocityX;
             duck.velocityX *= -1;
+
+            if (duck.velocityX < 0) {
+                duck.image.src = duckImageNames[0];
+            }
         }
         duck.y += duck.velocityY;
         if(duck.y < 0 || duck.y + duckImageHeight > gameHeight ) {
             //duck.velocityY -= duck.velocityY;
             duck.velocityY *= -1;
+            if (duck.velocityY < 0) {
+                duck.image.src = duckImageNames[1];
+            }
         }
 
         duck.image.style.left = String(duck.x) + "px"; // x position 
