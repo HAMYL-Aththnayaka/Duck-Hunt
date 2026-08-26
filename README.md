@@ -1,5 +1,3 @@
-Sure — here's a clean README for your **Duck Duck Hunt** project. It's written in a student-project style without making it sound overly corporate.
-
 # 🦆 Duck Duck Hunt
 
 A simple browser-based duck shooting game built using **HTML, CSS, and JavaScript**.
