@@ -17,3 +17,11 @@ body{
     font-family: gameFont;
     color:white;
 }
+
+#logo{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    opacity: 0.5;
+}
