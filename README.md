@@ -4,6 +4,8 @@ A simple browser-based duck shooting game built using **HTML, CSS, and JavaScrip
 
 The player needs to click and shoot the flying ducks to increase their score. Once all ducks in a round are shot, a dog appears before the next round begins.
 
+live demo : https://duck-hunt-coral.vercel.app/
+
 ## 🎮 Features
 
 * 🦆 Randomly spawns **1–5 ducks** each round
